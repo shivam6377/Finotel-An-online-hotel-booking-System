@@ -1,0 +1,380 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-content {
+  min-height: 80vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-select-selector {
+  height: 50px !important;
+}
+
+.ant-select-selection-placeholder,
+.ant-select-selection-item {
+  margin-top: 5px;
+}
+
+.btn-square {
+  border-radius: 0;
+}
+
+
+.hotel-image{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.banner{ 
+  background-size:cover;
+  height: 220px;
+  position: relative;
+}
+
+.hotel-detail-img {
+ background-image: url(./assets/hotel-banner.PNG);
+}
+
+.nav-banner {
+  background-image: url(./assets/dashboard-banner.PNG);
+  background-size:cover;
+  height: 200px;
+}
+
+.cab-banner {
+  background-image: url(./assets/cab-banner.PNG);
+  background-size:cover;
+  height: 200px;
+}
+
+
+.banner h1, .nav-banner h2, .cab-banner h2{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.card-new {
+  background: url(../src/assets/any_pattern.jpg) !important;
+}
+
+.form-box-pay {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  padding: 5rem 5rem;
+  margin-right: 1rem;
+}
+
+.input-text-pay {
+  border: 1px solid #dddddd;
+  background: #f8f8f8;
+  padding: 0 1rem;
+  line-height: 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 0.1rem;
+  width: 100%;
+  margin: 1rem 0;
+  color: #666666;
+}
+
+.pay-btn {
+  padding: 1rem 1rem;
+  border: 0;
+  background: #1496d3;
+  color: #ffffff;
+  width: 100%;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.semi {
+  width: 50%;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.flex-wrapper div {
+  margin-right: 2rem;
+}
+
+.error {
+  background-color: rgb(247, 144, 144);
+}
+
+.discount-per{
+  background-color: rgb(255, 77, 79);
+  color: #fff;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.nav-link {
+  color: black;
+}
+
+.nav .active {
+  color: #0071c2;
+  font-weight: bold;
+  /* border-bottom: 4px solid #0071c2; */
+}
+
+.nav-link:hover {
+  color: #0071c2;
+  font-weight: bold;
+}
+
+.nav-tabs .active {
+  color:#0071c2 !important;
+}
+
+.logo-link{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.logo-link .first{
+  color: rgb(0, 124, 194);
+}
+.logo-link .second{
+  color: orange;
+}
+.logo-link .third{
+  color: red;
+}
+
+.top-nav {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(232, 237, 235);
+}
+
+.show-more {
+  background-color: rgb(0, 124, 194); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius: 25px;
+}
+
+/* Darker background on mouse-over */
+.show-more:hover {
+  background-color: RoyalBlue;
+  color: #fff;
+}
+
+.rounded-avatar{
+  height: 30px;
+  width: 30px;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.user-info span {
+  font-weight: bold;
+}
+
+.hotel-location {
+  color: rgb(2, 131, 223);font-size: 1.2rem;font-weight: 700;
+}
+
+.small-cards {
+  width:'100%' !important;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.16);
+}
+
+
+.small-cards .no-gutters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-cards:hover {
+  background-color: #cce4f5 !important;
+  border: 1px solid rgb(0, 124, 194);
+  cursor: pointer !important;
+}
+
+.small-cards img {
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%
+}
+
+.mobile-side-nav {
+  width: 95%;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-side-nav .fa-bars {
+  color: rgb(0, 124, 194);
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.home-content,.dashboard-content {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;  
+}
+
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 200px;
+  
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  transform: translate3d(0,0,0);
+  border-bottom: 1px solid rgb(0, 124, 194);
+}
+
+.btn-primary {
+  background: #0071c2 !important;
+}
+
+
+
+.go-back {
+  background-color:#0071c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 10px;
+  color: #fff;
+  border-color: #0071c2;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.wrapper {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin: 25px;
+  /* background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20191212174641/bg1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.wrapper .form-control, .wrapper .ant-select-selector {
+  background-color: transparent !important;
+  /* color: #fff !important; */
+}
+
+.image-peview {
+  width: 50%;
+  height: 50%;
+  margin-right:10px;
+}
+
+.dashboard-top {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+/* .search-wrapper {
+  border: 1px solid rgb(0, 124, 194);
+} */
+
+ /* Responsive columns */
+ @media screen and (max-width: 600px) {
+
+  .wrapper {
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+
+  .image-peview {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+
+  .right-nav {
+    margin-left: 10px;
+  }
+
+  .small-cards .extra-actions {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .payment-wrapper .card-new {
+    margin: 0 auto;
+  }
+
+  .payment-wrapper ,.input-text-pay {
+    padding: 0px;
+  }
+
+  .form-box-pay {   
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }  
+
+  .ap-dropdown-menu {
+    width:  350px !important;
+  }  
+
+  .banner h1 {
+    font-size: 22px;
+  }
+ }    
+
+ 
